@@ -1,0 +1,87 @@
+*{
+    margin : 0 ; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 10px;
+  }
+  
+  #main_body h6 {
+      clear: both;
+      margin: 15px 0px;
+      padding-left: 54px;
+      padding-block: 18px;
+      /* background: #e6e6e6; */
+      /* background: red; */
+      /* background-color: red !important; */
+      font-size: 2.2rem;
+      font-weight: bold;
+      line-height: 1.4;
+      position: relative;
+      /* background: radial-gradient(circle at 50%, #fac5d2 4.9px,#fac5d2 4.9px, transparent 5.2px);
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 12px; */
+  
+       /* height: 100%;
+       background: radial-gradient(circle at 50%, #fac5d2 4.9px,#fac5d2 4.9px, rgb(172, 172, 30) 5.2px);
+        background-position-x: left; */
+
+        background: url([[cms_top_path]]/img/site/kosodate/common/h6_threedots.jpg);
+        background-repeat: no-repeat;
+        background-size: 45px;
+        background-position: top 24px left 0px;
+  }
+  
+  /* #main_body h6::before, #main_body h6::after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background-color: #f48ba5;
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      transform: translateY(-50%);
+      border-radius: 50%;
+  }
+  
+  #main_body h6::after {
+      left: 30px;
+  }
+  
+  #main_body h6 a::before{
+     width: 10px;
+     height: 10px;
+     border: 2px solid black;
+    background-color: rgb(255, 0, 170);
+  }
+   */
+  
+  @media screen and (max-width : 900px){
+      #main_body h6 {
+      padding-left: 45px;
+      padding-block: 12px;
+      font-size: 1.6rem;
+      background-position:top 20px left 0px ;
+      background-size: 35px;
+  }
+  
+  /* #main_body h6::before, #main_body h6::after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background-color: #f48ba5;
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      transform: translateY(-50%);
+      border-radius: 50%;
+  }
+  
+  #main_body h6::before, #main_body h6::after {
+      width: 8px;
+      height: 8px;
+      left: 14px;
+  } */
+  }

@@ -1,0 +1,90 @@
+
+/* pc */
+#main_body h3 {
+    background-position: top 20px left;
+}
+/* 670px */
+#main_body h3 {
+    background-position: top 12px left;
+}
+
+
+
+
+/* pc */
+#main_body h4::before {
+    top: 31px;
+}
+/* sp */
+#main_body h4::before {
+    top: 21px;
+}
+
+
+
+/* pc */
+#main_body h5::before, #main_body h5::after {
+    top: 30px;
+}
+
+/* sp */
+#main_body h5::before, #main_body h5::after {
+    top: 21px;
+}
+
+
+
+
+#main_body h6::before, #main_body h6::after {
+    
+    top: 42px;
+ 
+}
+
+
+
+#main_body h6::before , #main_body h6::after{
+    content: '';
+     width: 10px;
+     height: 10px;
+     background-color: #f48ba5;
+     position: absolute;
+     top: 50%;
+     left: 15px;
+     transform: translateY(-50%);
+     border-radius: 50%;
+}
+
+
+#main_body h6::after{
+     left: 30px;
+}
+
+/* テーブル */
+#main_body table {
+	 border-color: #f48ba5;
+	border-collapse: collapse;
+	border-style: solid;
+	margin: 0px 0px 20px;
+	max-width: 100%;
+}
+
+
+#main_body h6::before , #main_body h6::after{
+    width: 8px;
+    height: 8px;
+    left: 14px;
+}
+
+
+#main_body h6::after{
+    left: 26px;
+}
+
+
+/* checked    1  2   3     4   5  6  7  8   9  10  11*/   
+
+
+padding: 0px 7.2px;
+    padding-top: 5px;
+    padding-bottom: 2.5px;
